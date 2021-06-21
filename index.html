@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="display=device-width, initial-scale=1">
+
+	<title>Alc stars</title>
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/dt.js"></script>
+</head>
+<body>
+
+<div class="wrp">
+	
+	<header>
+		<h1>Alchy stars</h1>
+	</header>
+
+	<main>
+	
+		<div class="notice">
+			<p>
+				<strong>This is not Offical page for Alchemy Stars</strong>, im just making this site for my personal purpose. all information used here is from Alchemy stars game.
+			</p>
+
+			<p>
+				You can visit the official page here: <a href="https://www.alchemystars.com/"><strong>Alchemy stars</strong></a>
+			</p>
+		</div>
+
+		<h3>Character list</h3>
+
+		<div class="control">
+
+			<div class="search">
+				<strong>Search: </strong>
+				<input type="text" onkeyup="searchChar()" id="searchChar" name="search_char" placeholder="Character name" autocomplete="off">
+			</div>
+		</div>
+
+		<div class="character-list" id="CharacterList"></div>
+
+		<script>
+								
+			var character = Engine.character;
+
+			for (i = 0; i < character.length; i++) {
+				 
+				var el = '<div class="box">';
+					
+					el += '<div class="rear-info">';
+					el += '<figure>';
+					el += '<img src="assets/characters/' + character[i].figure + '" alt="'+ character[i].name +'">';
+					el += '</figure>';
+
+					el += '<div class="profile">';
+					el += '<span class="name character-name">' + character[i].name;
+					el += '</span>';
+					el += '<div class="tags">';
+
+					var category = character[i].category;
+
+					for(s = 0; s < category.length; s++){
+						el += '<span>'+ category[s].name +'</span>';
+					}
+
+					el += '</div>';
+					el += '</div>';
+					el += '<div class="indicator">';
+					el += '<span class="down material-icons">';
+					el += 'expand_circle_down';
+					el += '</span>';
+					el += '<span class="up material-icons">';
+					el += 'expand_less';
+					el += '</span>';
+					el += '</div>';
+					el += '</div>';
+
+					el += '<div class="expand-info">';
+					el += "<h3 style='margin-bottom: 10px;''>"+ character[i].name +"'s Skills</h3>";
+					var skills = character[i].skill;
+
+					for (d = 0; d < skills.length; d++){
+
+						el += '<div class="skill-box">';
+						el += '<div class="icon">';
+						el += '<img src="assets/characters/'+ skills[d].img +'" alt="Skill">';
+						el += '</div>';
+						el += '<div class="desc">';
+						el += '<div class="skill-name"><span class="skill-type">'+ skills[d].type +'</span> <strong>'+ skills[d].name +'</strong></div>';
+						el += '<div>'+ skills[d].description +'</div>';
+						el += '</div>';
+						el += '</div>';
+
+					}
+
+					el += '</div>';
+
+					$("#CharacterList").append(el);
+			}
+
+		</script>
+	</main>
+
+</div>
+
+<script type="text/javascript" src="js/ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+/* R */
+body {
+	margin: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+/* R End */
+
+/* Desktop */
+.wrp {
+	display: none;
+}
+
+
+/* Mobile */
+@media (max-width:  892px){
+	body {
+		font-size: smaller;
+		line-height: 1.25;
+		letter-spacing: .25;
+	}
+
+	.wrp {
+		display: block;
+	}
+
+	header {
+		padding:  30px 10% 20px 10%;
+	}
+
+	main {
+		padding: 5%;
+	}
+
+	main .notice {
+		padding: 20px 5%;
+		border-radius: 10px;
+		border:  1px solid rgba(0,0,0,.2);
+		box-shadow: 0 0 10px -6px rgba(0,0,0,.4);
+	}
+
+	main > h3 {
+		margin: 30px 0 10px 0;
+		padding: 0 5%;
+	}
+
+	main .control .search {
+		padding: 0 5%;
+		margin-top: 15px;
+		display: flex;
+		align-items: center;
+	}
+	main .control .search input {
+		border: 1px solid gold;
+		width: 100%;
+		height: 30px;
+		border-radius: 5px;
+		margin-left: 3px;
+		padding: 0 10px;
+		font-size: small;
+		font-weight: 500;
+		font-family: 'Open Sans Condensed', sans-serif;
+		box-shadow: 0 0 10px -7px rgba(0,0,0,.6);
+	}
+	main .character-list {
+		margin-top: 30px;
+	}
+	main .character-list .box .rear-info {
+		box-shadow: 0 0 10px -7px rgba(0,0,0,0.8);
+		display: flex;
+		width: 100%;
+		max-height: 80px;
+		flex-direction: row;
+		overflow: hidden;
+		border-radius: 5px;
+	}
+	main .character-list .box .rear-info figure {
+		width: 80px;
+		height: 80px;
+		margin: 0;
+		display: flex;
+		box-sizing: border-box;
+		flex-grow: 0;
+		flex-shrink: 0;
+		justify-content: center;
+		align-items: center;
+		border-radius: 5px;
+		overflow: hidden;
+		border: 1px solid rgba(0, 0, 0, .3);
+		box-shadow: 0 0 10px -7px rgba(0,0,0,0.4);
+	}
+	main .character-list .box .rear-info figure img {
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	main .character-list .box {
+		margin-bottom: 20px;
+	}
+	main .character-list .box .rear-info .profile {
+		box-sizing: border-box;
+		padding: 9px 10px;
+		display: flex;
+		flex-direction: column;
+		flex-grow: 1;
+	}
+	main .character-list .box .rear-info .profile .name {
+		margin-left: 10px;
+		font-weight: bold;
+		margin-bottom: 2px;
+	}
+	main .character-list .box .rear-info .profile .tags {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	main .character-list .box .rear-info .profile .tags > span {
+		display: block;
+		border-bottom: 1px solid salmon;
+		max-height: 20px;
+		border-radius: 0;
+		padding-bottom: 3px;
+		margin-bottom: 2px;
+		margin-left: 10px;
+	}
+	main .character-list .box .indicator {
+		padding: 0 5%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	main .character-list .box .indicator .up {
+		display: none;
+	}
+	main .character-list .box .expand-info {
+		padding: 20px 5% 20px 5%;
+		border-radius: 0 0 10px 10px;
+		display: none;
+		background-image: linear-gradient(to bottom, transparent 65%, rgba(249 209 95 / 10%), rgba(249 209 95 / 20%) );
+	}
+	main .character-list .box .expand-info .skill-box {
+		margin-bottom: 10px;
+		display: flex;
+	}
+	main .character-list .box .expand-info .skill-box .icon {
+		width: 50px;
+		height: 50px;
+		background-color: #333;
+		flex-grow: 0;
+		flex-shrink: 0;
+		color: white;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	main .character-list .box .expand-info .skill-box .icon img {
+		width: 100%;
+		height: 100%;
+
+	}
+	main .character-list .box .expand-info .skill-box .desc {
+		margin-left: 10px;
+	}
+	main .character-list .box .expand-info .skill-box .desc .skill-name {
+		display: flex;
+		align-items: center;
+	}
+	main .character-list .box .expand-info .skill-box .desc .skill-type {
+		color: white;
+		font-size: small;
+		font-weight: bold;
+		background-color: crimson;
+		padding: 2px 10px;
+		margin-right: 5px;
+		border-radius: 3px;
+	}
+}
