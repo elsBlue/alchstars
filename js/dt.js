@@ -53,7 +53,7 @@ var Engine = {
 					"type" 			: "Active",
 					"name" 			: "Dawn Banner",
 					"img" 			: "amy/skill1.jpg",
-					"description" 	: "Places the banner on 1 selected tile. The closer Amy is to the banner, the higher her DEF increases (up to 100%). The banner disappears when touched by ab enemy.",
+					"description" 	: "Places the banner on 1 selected tile. The closer Amy is to the banner, the higher her DEF increases (up to 100%). The banner disappears when touched by an enemy.",
 				},
 
 				{	
