@@ -67,7 +67,33 @@
 					el += '</figure>';
 
 					el += '<div class="profile">';
+
+					var attribute = character[i].attribute;
+
 					el += '<span class="name character-name">' + character[i].name;
+					el += '<span class="attribute">'; 
+					
+					var element;
+
+					if(attribute == "Fire") {
+						element = "Fire.jpg";
+					} else if(attribute == "Thunder") {
+						element = "Thunder.jpg";
+					} else if(attribute == "Forest") {
+						element = "Forest.jpg";
+					} else if(attribute == "water") {
+						element = "water.jpg";
+					}
+
+					el += '<img src="assets/icons/'+ element +'" alt="'+ attribute +'">';
+					el += '</span> <span class="stars">';
+
+					var stars = parseInt(character[i].rarity);
+					for (var x = 0; x < stars; x++) {
+						el += '<span class="material-icons">star</span>';	
+					}
+
+					el += '</span>';
 					el += '</span>';
 					el += '<div class="tags">';
 
