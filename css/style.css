@@ -77,7 +77,7 @@ h1,h2,h3,h4,h5,h6 {
 		box-shadow: 0 0 10px -7px rgba(0,0,0,.6);
 	}
 	main .character-list {
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 	main .character-list .box .rear-info {
 		box-shadow: 0 0 10px -7px rgba(0,0,0,0.8);
