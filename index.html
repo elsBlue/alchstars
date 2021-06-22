@@ -63,7 +63,7 @@
 					
 					el += '<div class="rear-info">';
 					el += '<figure>';
-					el += '<img src="assets/characters/' + character[i].figure + '" onerror="this.src=' + document.write("assets/default/noimage.jpg") + '">'; // alt="'+ character[i].name +'"
+					el += '<img src="assets/characters/' + character[i].figure + '" alt="'+ character[i].name +'">';
 					el += '</figure>';
 
 					el += '<div class="profile">';
@@ -81,7 +81,7 @@
 						element = "Thunder.jpg";
 					} else if(attribute == "Forest") {
 						element = "Forest.jpg";
-					} else if(attribute == "water") {
+					} else if(attribute == "Water") {
 						element = "water.jpg";
 					}
 
