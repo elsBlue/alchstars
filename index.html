@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="display=device-width, initial-scale=1">
 
-	<title>Alc stars</title>
+	<title>Alchy stars</title>
 	
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
@@ -63,7 +63,7 @@
 					
 					el += '<div class="rear-info">';
 					el += '<figure>';
-					el += '<img src="assets/characters/' + character[i].figure + '" alt="'+ character[i].name +'">';
+					el += '<img src="assets/characters/' + character[i].figure + '" alt="'+ character[i].name +'" onerror="noimage(this)">';
 					el += '</figure>';
 
 					el += '<div class="profile">';
@@ -85,7 +85,7 @@
 						element = "water.jpg";
 					}
 
-					el += '<img src="assets/icons/'+ element +'" alt="'+ attribute +'">';
+					el += '<img src="assets/icons/'+ element +'" alt="'+ attribute +'" onerror="noimage(this)">';
 					el += '</span> <span class="stars">';
 
 					var stars = parseInt(character[i].rarity);
@@ -123,7 +123,7 @@
 
 						el += '<div class="skill-box">';
 						el += '<div class="icon">';
-						el += '<img src="assets/characters/'+ skills[d].img +'" alt="Skill">';
+						el += '<img src="assets/characters/'+ skills[d].img +'" alt="Skill" onerror="noimage(this)">';
 						el += '</div>';
 						el += '<div class="desc">';
 						el += '<div class="skill-name"><span class="skill-type">'+ skills[d].type +'</span> <strong>'+ skills[d].name +'</strong></div>';
@@ -136,6 +136,10 @@
 					el += '</div>';
 
 					$("#CharacterList").append(el);
+			}
+
+			function noimage(a){
+				a.src = "assets/default/noimage.jpg";
 			}
 
 		</script>
