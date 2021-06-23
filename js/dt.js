@@ -185,11 +185,11 @@ var Engine = {
 		},
 
 		{
-			"name" 		: "Saleucid",
+			"name" 		: "Seleucid",
 			"world" 	: "Umbraton",
 			"attribute" : "Water",
 			"rarity"	: "4",	
-			"figure" 	: "saleucid/figure.jpg",
+			"figure" 	: "seleucid/figure.jpg",
 			"category" 	: [
 				{"name" : "Detonator"},
 			],
