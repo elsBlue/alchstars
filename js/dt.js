@@ -198,21 +198,21 @@ var Engine = {
 				{	
 					"type" 			: "Active",
 					"name" 			: "Roar of Fury",
-					"img" 			: "saleucid/skill1.jpg",
+					"img" 			: "seleucid/skill1.jpg",
 					"description" 	: "Deals 200% damage to 1 surrounding cluster.",
 				},
 
 				{	
 					"type" 			: "Chain Combo",
 					"name" 			: "Leaping Cleave",
-					"img" 			: "saleucid/skill2.jpg",
+					"img" 			: "seleucid/skill2.jpg",
 					"description" 	: "Deals 150% damage to 1 surrounding cluster.",
 				},
 				
 				{	
 					"type" 			: "Equipment Skills",
 					"name" 			: "Crushing Force",
-					"img" 			: "saleucid/skill3.jpg",
+					"img" 			: "seleucid/skill3.jpg",
 					"description" 	: "There is a 30% chance of increasing Chain Combo damage by 50%.",
 				}
 					
