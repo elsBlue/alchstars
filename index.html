@@ -58,7 +58,8 @@
 			var character = Engine.character;
 
 			for (i = 0; i < character.length; i++) {
-				var id_name = character[i].name.replace(" ","_");
+				var id_name_r = character[i].name.replace(" ","_");
+				var id_name = id_name_r.replace("&","a");
 				var el = '<div class="box" id="'+ id_name +'">';
 					
 					el += '<div class="rear-info">';
@@ -151,7 +152,8 @@
 					<script type="text/javascript">
 
 						for (i = 0; i < character.length; i++){
-							var id_name = character[i].name.replace(" ","_");
+							var id_name_r = character[i].name.replace(" ","_");
+							var id_name = id_name_r.replace("&","a");
 							var link = "<a class='link' href='#"+ id_name +"'>";
 								link += '<img src="assets/characters/'+ character[i].figure +'" alt="Skill" onerror="noimage(this)">';
 								link += "<span>" + character[i].name + "</span>";
