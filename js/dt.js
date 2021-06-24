@@ -470,7 +470,7 @@ var Engine = {
 			"world" 	: "Independent",
 			"attribute" : "Forest",
 			"rarity"	: "4",	
-			"figure" 	: "tiny/figure.jpg",
+			"figure" 	: "wendy/figure.jpg",
 			"category" 	: [
 				{"name" : "Converter"},
 			],
@@ -584,7 +584,7 @@ var Engine = {
 				{	
 					"type" 			: "Active",
 					"name" 			: "Anticipation of Love",
-					"img" 			: "water/skill1.jpg",
+					"img" 			: "zoya/skill1.jpg",
 					"description" 	: "recovers the team's HP by 150% of Zoya's ATK. Each Blue tile on the field increases healing effectiveness by 5%.",
 				},
 
