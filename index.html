@@ -58,8 +58,8 @@
 			var character = Engine.character;
 
 			for (i = 0; i < character.length; i++) {
-				 
-				var el = '<div class="box">';
+				var id_name = character[i].name.replace(" ","_");
+				var el = '<div class="box" id="'+ id_name +'">';
 					
 					el += '<div class="rear-info">';
 					el += '<figure>';
@@ -146,8 +146,21 @@
 
 		<div class="navbar">
 			<div class="jump">
-				<span>Jump</span>
-				<span class="mini-characterlist"></span>
+				<span class="holder">Jump</span>
+				<span style="display: none" class="mini-characterlist">
+					<script type="text/javascript">
+
+						for (i = 0; i < character.length; i++){
+							var id_name = character[i].name.replace(" ","_");
+							var link = "<a class='link' href='#"+ id_name +"'>";
+								link += '<img src="assets/characters/'+ character[i].figure +'" alt="Skill" onerror="noimage(this)">';
+								link += "<span>" + character[i].name + "</span>";
+								link += "</a>";
+
+								$(".mini-characterlist").append(link);
+						}
+					</script>
+				</span>
 			</div>
 			<div class="expand-all">Expand all</div>
 			<div class="shrink-all">Scale down</div>
