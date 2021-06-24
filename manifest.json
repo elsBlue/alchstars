@@ -1,0 +1,9 @@
+{
+  "name": "Alchy Stars",
+  "theme_color": "#280000",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/alchystars.netlify.app"
+}
