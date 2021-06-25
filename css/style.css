@@ -112,7 +112,7 @@ h1,h2,h3,h4,h5,h6 {
 		height: 100%;
 	}
 	main .character-list .box {
-		margin-bottom: 20px;
+		padding-top: 20px;
 	}
 	main .character-list .box .rear-info .profile {
 		box-sizing: border-box;
@@ -223,7 +223,7 @@ h1,h2,h3,h4,h5,h6 {
 		bottom: 0;
 		right: 0;
 		left: 0;
-		height: 30px;
+		height: 40px;
 		display: flex;
 		justify-content: space-between;
 		padding: 2.5px 10%;
@@ -246,7 +246,7 @@ h1,h2,h3,h4,h5,h6 {
 	}
 	.mini-characterlist {
 		position: fixed;
-		bottom: 28px;
+		bottom: 48px;
 		left: 0;
 		width: 100%;
 		overflow: auto;
