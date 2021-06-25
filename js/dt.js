@@ -8,8 +8,7 @@ var Engine = {
 			"rarity"	: "4",	
 			"figure" 	: "alice/figure.jpg",
 			"category" 	: [
-				{"name" : "Heal"},
-				{"name" : "Buff Effect"},
+				{"name" : "Support"},
 			],
 
 			"skill" 	: [
@@ -44,8 +43,7 @@ var Engine = {
 			"rarity"	: "3",	
 			"figure" 	: "amy/figure.jpg",
 			"category" 	: [
-				{"name" : "Heal"},
-				{"name" : "Buff Effect"},
+				{"name" : "Support"},
 			],
 
 			"skill" 	: [
@@ -80,8 +78,7 @@ var Engine = {
 			"rarity"	: "3",	
 			"figure" 	: "angel/figure.jpg",
 			"category" 	: [
-				{"name" : "Random Multihit"},
-				{"name" : "Cross Shape ATK"},
+				{"name" : "Detonator"},
 			],
 
 			"skill" 	: [
@@ -117,8 +114,7 @@ var Engine = {
 			"rarity"	: "4",	
 			"figure" 	: "ansia/figure.jpg",
 			"category" 	: [
-				{"name" : "Surrounding Cluster ATK"},
-				{"name" : "Edge ATK"},
+				{"name" : "Converter"},
 			],
 
 			"skill" 	: [
@@ -153,10 +149,7 @@ var Engine = {
 			"rarity"	: "4",	
 			"figure" 	: "brock/figure.jpg",
 			"category" 	: [
-				{"name" : "Diamond Shape ATK"},
-				{"name" : "Fire Attack Buff"},
-				{"name" : "AOE"},
-				{"name" : "Aggro"},
+				{"name" : "Support"},
 			],
 
 			"skill" 	: [
