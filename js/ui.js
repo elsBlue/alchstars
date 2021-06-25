@@ -60,7 +60,7 @@ $(document).on("click", ".jump-out", function(){
 
 $(document).on("click", ".link", function(){
 		var href = $(this).attr("href");
-		
+
 		var a = $(href).children(".expand-info");
 		console.log(a);
 		var b = $(".rear-info").children(".indicator").children(".down");
