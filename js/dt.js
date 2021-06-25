@@ -185,6 +185,41 @@ var Engine = {
 		},
 
 		{
+			"name" 		: "Dayna",
+			"world" 	: "Umbraton",
+			"attribute" : "Thunder",
+			"rarity"	: "5",	
+			"figure" 	: "dayna/figure.jpg",
+			"category" 	: [
+				{"name" : "Detonator"},
+			],
+
+			"skill" 	: [
+				{	
+					"type" 			: "Active",
+					"name" 			: "Capricious Thunder",
+					"img" 			: "dayna/skill1.jpg",
+					"description" 	: "Deals 250% damage to 9 tiles in a square shape centered on 1 selected tile.",
+				},
+
+				{	
+					"type" 			: "Chain Combo",
+					"name" 			: "Palpitations",
+					"img" 			: "dayna/skill2.jpg",
+					"description" 	: "[5] Deals 130% damage to 1 column <br> [8] Deals 130% damage to 3 column <br> [13] Deals 145% damage to 3 column.",
+				},
+				
+				{	
+					"type" 			: "Equipment Skills",
+					"name" 			: "Electro Blast.",
+					"img" 			: "dayna/skill3.jpg",
+					"description" 	: "Increases Dayna's damage against enemies occupying a Yellow tile by 2%.",
+				}
+					
+			]
+		},
+
+		{
 			"name" 		: "Gronru",
 			"world" 	: "Illumina Federation",
 			"attribute" : "Thunder",
@@ -495,6 +530,41 @@ var Engine = {
 					"name" 			: "Target Lock",
 					"img" 			: "vice/skill3.jpg",
 					"description" 	: "Vice gains 1 stack of Locking Marks whenever she deals damage. Each stack increases damage by 1%. All stacks are cleared at the end of the round.",
+				}
+					
+			]
+		},
+
+		{
+			"name" 		: "Vivian",
+			"world" 	: "Illumina Federation",
+			"attribute" : "Thunder",
+			"rarity"	: "5",	
+			"figure" 	: "vivian/figure.jpg",
+			"category" 	: [
+				{"name" : "Sniper"},
+			],
+
+			"skill" 	: [
+				{	
+					"type" 			: "Active",
+					"name" 			: "Defensive Counterstrike",
+					"img" 			: "vivian/skill1.jpg",
+					"description" 	: "Deals 320% damage to enemies within 3 surrounding clusters. Converts 1 random enemy tile to Yellow.",
+				},
+
+				{	
+					"type" 			: "Chain Combo",
+					"name" 			: "Charge, Curie!",
+					"img" 			: "vivian/skill2.jpg",
+					"description" 	: "[5] Deals 140% damage to 3 enemies within 3 surrounding clusters <br> [9] Deals 150% damage to 4 enemies within 3 surrounding clusters <br> [13] Deals 170% damage to 5 enemies within 3 surrounding clusters",
+				},
+				
+				{	
+					"type" 			: "Equipment Skills",
+					"name" 			: "Mutual Collaboration",
+					"img" 			: "vivian/skill3.jpg",
+					"description" 	: "Whenever Chain Combos deal damage to all enemies. Thunder Aurorians gain 3% of vivian's ATK as an attack bonus for the round.",
 				}
 					
 			]
