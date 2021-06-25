@@ -185,6 +185,41 @@ var Engine = {
 		},
 
 		{
+			"name" 		: "Gronru",
+			"world" 	: "Illumina Federation",
+			"attribute" : "Thunder",
+			"rarity"	: "5",	
+			"figure" 	: "gronru/figure.jpg",
+			"category" 	: [
+				{"name" : "Converter"},
+			],
+
+			"skill" 	: [
+				{	
+					"type" 			: "Active",
+					"name" 			: "Gronru's Ultimate Fusion",
+					"img" 			: "gronru/skill1.jpg",
+					"description" 	: "Converts 4 nearest Blue and Red tiles to Yellow.",
+				},
+
+				{	
+					"type" 			: "Chain Combo",
+					"name" 			: "Megashock",
+					"img" 			: "gronru/skill2.jpg",
+					"description" 	: "[5] Deals 130% damage to 1 column <br> [8] Deals 130% damage to 3 column <br> [13] Deals 145% damage to 3 column.",
+				},
+				
+				{	
+					"type" 			: "Equipment Skills",
+					"name" 			: "Gronru's Ionizer",
+					"img" 			: "gronru/skill3.jpg",
+					"description" 	: "Grants 1 Magnetic Storm per 3 round. The next Chain Combo deals 20% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
+				}
+					
+			]
+		},
+
+		{
 			"name" 		: "Seleucid",
 			"world" 	: "Umbraton",
 			"attribute" : "Water",
