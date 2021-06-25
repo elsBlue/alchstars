@@ -58,6 +58,22 @@ $(document).on("click", ".jump-out", function(){
 		$(".holder").html("Jump");
 });
 
+$(document).on("click", ".link", function(){
+		var href = $(this).attr("href");
+		
+		var a = $(href).children(".expand-info");
+		console.log(a);
+		var b = $(".rear-info").children(".indicator").children(".down");
+		var c = $(".rear-info").children(".indicator").children(".up");
+
+	
+		a.slideDown( 400 );
+		a.addClass("active");
+		c.show();
+		b.hide();
+});
+
+
 function searchChar() {
   
   var input, filter, ul, li, a, i, txtValue;
