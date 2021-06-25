@@ -290,6 +290,41 @@ var Engine = {
 		},
 
 		{
+			"name" 		: "Korgon",
+			"world" 	: "Independent",
+			"attribute" : "Water",
+			"rarity"	: "3",	
+			"figure" 	: "korgon/figure.jpg",
+			"category" 	: [
+				{"name" : "Support"},
+			],
+
+			"skill" 	: [
+				{	
+					"type" 			: "Active",
+					"name" 			: "Bloody Devour",
+					"img" 			: "korgon/skill1.jpg",
+					"description" 	: "Deals 210% damage to 16 tiles in a radial shape and knocks enemies back.",
+				},
+
+				{	
+					"type" 			: "Chain Combo",
+					"name" 			: "Mass Rend",
+					"img" 			: "korgon/skill2.jpg",
+					"description" 	: "[2] Deals 140% damage to 8 tiles in an X shape. <br> [7] Deals 140% damage to enemies in an X shape to the maximum range.",
+				},
+				
+				{	
+					"type" 			: "Equipment Skills",
+					"name" 			: "Pantherlike",
+					"img" 			: "korgon/skill3.jpg",
+					"description" 	: "Increases Chain Combo damage by 10%.",
+				}
+					
+			]
+		},
+
+		{
 			"name" 		: "Leona",
 			"world" 	: "Umbraton",
 			"attribute" : "Fire",
