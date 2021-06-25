@@ -185,6 +185,42 @@ var Engine = {
 		},
 
 		{
+			"name" 		: "Chainsaw Rick",
+			"world" 	: "Rediesel Wrench",
+			"attribute" : "Fire",
+			"rarity"	: "3",	
+			"figure" 	: "chainsaw/figure.jpg",
+			"category" 	: [
+				{"name" : "Support"},
+				
+			],
+
+			"skill" 	: [
+				{	
+					"type" 			: "Active",
+					"name" 			: "Raging Rampage",
+					"img" 			: "chainsaw/skill1.jpg",
+					"description" 	: "Deals 300% damage to 1 surrounding cluster and enemies in a cross shape to the maximum range and knocks enemies back.",
+				},
+
+				{	
+					"type" 			: "Chain Combo",
+					"name" 			: "Diesel Storm",
+					"img" 			: "chainsaw/skill2.jpg",
+					"description" 	: "[2] Deals 150% damage to 8 tiles in a cross shape and knocks enemies back.",
+				},
+				
+				{	
+					"type" 			: "Equipment Skills",
+					"name" 			: "Rediesel Retrofit",
+					"img" 			: "chainsaw/skill3.jpg",
+					"description" 	: "Increases Active Skill damage by 20%.",
+				}
+					
+			]
+		},
+
+		{
 			"name" 		: "Clover",
 			"world" 	: "Rediesel Wrench",
 			"attribute" : "Forest",
