@@ -185,6 +185,41 @@ var Engine = {
 		},
 
 		{
+			"name" 		: "Clover",
+			"world" 	: "Rediesel Wrench",
+			"attribute" : "Forest",
+			"rarity"	: "3",	
+			"figure" 	: "clover/figure.jpg",
+			"category" 	: [
+				{"name" : "Detonator"},
+			],
+
+			"skill" 	: [
+				{	
+					"type" 			: "Active",
+					"name" 			: "Codename Trifolium",
+					"img" 			: "clover/skill1.jpg",
+					"description" 	: "Deals 200% damage to enemies in a cross shape to tha maximum range.",
+				},
+
+				{	
+					"type" 			: "Chain Combo",
+					"name" 			: "Razor Leaf",
+					"img" 			: "clover/skill2.jpg",
+					"description" 	: "[4] Deals 60% damage to 12 tiles in a cross shape 2 times.</br> [9] Deals 60% damage to 12 tiles in a cross shape to the maximum range 2 times",
+				},
+				
+				{	
+					"type" 			: "Equipment Skills",
+					"name" 			: "Whirlblade",
+					"img" 			: "clover/skill3.jpg",
+					"description" 	: "When using Chain Combo, deals +20% damage to the first enemy hit and inflicts 1 stack of Poison, lasts for 2 rounds.",
+				}
+					
+			]
+		},
+
+		{
 			"name" 		: "Dayna",
 			"world" 	: "Umbraton",
 			"attribute" : "Thunder",
@@ -249,6 +284,41 @@ var Engine = {
 					"name" 			: "Gronru's Ionizer",
 					"img" 			: "gronru/skill3.jpg",
 					"description" 	: "Grants 1 Magnetic Storm per 3 round. The next Chain Combo deals 20% damage to 1 additional enemy within the area of attack and inflicts Paralysis for 1 round.",
+				}
+					
+			]
+		},
+
+		{
+			"name" 		: "Leona",
+			"world" 	: "Umbraton",
+			"attribute" : "Fire",
+			"rarity"	: "5",	
+			"figure" 	: "leona/figure.jpg",
+			"category" 	: [
+				{"name" : "Sniper"},
+			],
+
+			"skill" 	: [
+				{	
+					"type" 			: "Active",
+					"name" 			: "Blazing Funeral",
+					"img" 			: "leona/skill1.jpg",
+					"description" 	: "Deals 90% damage 5 times to random enemies on the field. Launches 1 additional attack for each Fire tile within 1 surrounding cluster of the unit",
+				},
+
+				{	
+					"type" 			: "Chain Combo",
+					"name" 			: "Dragon Breath Roar",
+					"img" 			: "leona/skill2.jpg",
+					"description" 	: "[2] Deals 150% damage to 1 surrounding cluster. <br> [8] Deals 160% damage to 12 tiles in a diamond shape <br> [11] Deals 170% damage to 16 tiles in a radial shape.",
+				},
+				
+				{	
+					"type" 			: "Equipment Skills",
+					"name" 			: "Dragon Breath",
+					"img" 			: "leona/skill3.jpg",
+					"description" 	: "Normal Attacks have a 40% chance to trigger 1 Red Dragon Attack that deals damage equal to 50% of Leona's Normal Attack damage.",
 				}
 					
 			]
