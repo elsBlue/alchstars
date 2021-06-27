@@ -214,6 +214,43 @@ var Engine = {
 		},
 
 		{
+			"name" 		: "Chloe",
+			"world" 	: "Lumopolis",
+			"attribute" : "Water",
+			"rarity"	: "4",	
+			"figure" 	: "chloe/figure.jpg",
+			"category" 	: [
+				{"name" : "Support"},
+				
+			],
+
+			"skill" 	: [
+				{	
+					"type" 			: "Active",
+					"name" 			: "Psalm of Support",
+					"img" 			: "chloe/skill1.jpg",
+					"description" 	: "When cast, each Blue tile on the battlefield grants all deployed members an ATK bonus equal to 0.5% of Chloe's ATK for 2 rounds.",
+				},
+
+				{	
+					"type" 			: "Chain Combo",
+					"name" 			: "Shimmering Sorrow",
+					"img" 			: "chloe/skill2.jpg",
+					"description" 	: "[4] Deals 145% damage to the 2 nearest enemies. <br> [9] Deals 145% damage to the 3 nearest enemies.",
+				},
+				
+				{	
+					"type" 			: "Equipment Skills",
+					"name" 			: "End of Dreams",
+					"img" 			: "chloe/skill3.jpg",
+					"description" 	: "When using an Active Skill or a Chain Combo. reduces the ATK of enemies in 1 surrounding cluster of the unit by 2% for 1 round.",
+				}
+					
+			]
+		},
+
+
+		{
 			"name" 		: "Clover",
 			"world" 	: "Rediesel Wrench",
 			"attribute" : "Forest",
