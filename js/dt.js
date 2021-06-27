@@ -670,6 +670,41 @@ var Engine = {
 		},
 
 		{
+			"name" 		: "Victoria",
+			"world" 	: "True Order",
+			"attribute" : "Fire",
+			"rarity"	: "6",	
+			"figure" 	: "victoria/figure.jpg",
+			"category" 	: [
+				{"name" : "Support"},
+			],
+
+			"skill" 	: [
+				{	
+					"type" 			: "Active",
+					"name" 			: "Chant of Parting Sea",
+					"img" 			: "victoria/skill1.jpg",
+					"description" 	: "Deals 250% damage to up to 3 enemies within 3 surrounding clusters. Deals 250% damage when there is only 1 enemy in range (this damage ignores DEF) Restores HP equal to 25% of the damage dealt.",
+				},
+
+				{	
+					"type" 			: "Chain Combo",
+					"name" 			: "Canticle of Drawing",
+					"img" 			: "victoria/skill2.jpg",
+					"description" 	: "[4] Deals 160% damage to 12 tiles in a diamond shape and inflicts 1 stack of Bleeding for 2 rounds. <br> [9] Deals 175% damage to 16 tiles in an oval shape and inflicts 1 stack of Bleeding for 2 rounds. <br> [12] Deals 180% damage to 2 surrounding clusters and inflicts 1 stack of Bleeding for 2 rounds.",
+				},
+				
+				{	
+					"type" 			: "Equipment Skills",
+					"name" 			: "Words of Ebb and Flow",
+					"img" 			: "victoria/skill3.jpg",
+					"description" 	: "Victoria regenerates 2% Max HP per stack of Bleeding whenever she hits an enemy afflicted with Bleeding.",
+				}
+					
+			]
+		},
+
+		{
 			"name" 		: "Vivian",
 			"world" 	: "Illumina Federation",
 			"attribute" : "Thunder",
