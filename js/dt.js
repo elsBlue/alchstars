@@ -214,6 +214,42 @@ var Engine = {
 		},
 
 		{
+			"name" 		: "Chandra",
+			"world" 	: "Illumina Federation",
+			"attribute" : "Fire",
+			"rarity"	: "4",	
+			"figure" 	: "chandra/figure.jpg",
+			"category" 	: [
+				{"name" : "Support"},
+				
+			],
+
+			"skill" 	: [
+				{	
+					"type" 			: "Active",
+					"name" 			: "Negative Emotion Project",
+					"img" 			: "chandra/skill1.jpg",
+					"description" 	: "Deals 150% damage to the enemy on 1 selected tile.",
+				},
+
+				{	
+					"type" 			: "Chain Combo",
+					"name" 			: "Unleash Negativity",
+					"img" 			: "chandra/skill2.jpg",
+					"description" 	: "[4] Deals 145% damage to 3 enemies within 2 surrounding clusters. <br> [8] Deals 150% damage to 3 enemies within 3 surrounding clusters.",
+				},
+				
+				{	
+					"type" 			: "Equipment Skills",
+					"name" 			: "Gather Negative Emotions",
+					"img" 			: "chandra/skill3.jpg",
+					"description" 	: "Gain 1 stack of Negativity Mark whenever an Active skill is used, up to 3 stacks. Each stack increases the number of Active Skill attacks by 1 and reduces the final damage by 15%",
+				}
+					
+			]
+		},
+
+		{
 			"name" 		: "Chloe",
 			"world" 	: "Lumopolis",
 			"attribute" : "Water",
